@@ -11,6 +11,15 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Home",
+        "groups": [
+          {
+            "group": "Home",
+            "pages": [
+              "home"
+            ]
+          }
+        ],
         "tab": "Guides",
         "groups": [
           {
