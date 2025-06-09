@@ -1,0 +1,21 @@
+export const GetStartedButton = () => {
+
+    const handleClick = () => {
+        window.open('/docs/getting-started/platform-overview',"_self");
+    };
+
+    return (
+        <div
+            style={{
+                marginBottom: '20px'
+            }}
+        >
+            <button
+                className={'e6Button'}
+                onClick={handleClick}
+            >
+                Get started
+            </button>
+        </div>
+    );
+}

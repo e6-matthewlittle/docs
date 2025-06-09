@@ -1,0 +1,21 @@
+export const ContactUsButton = () => {
+
+    const handleClick = () => {
+        window.open('https://www.episodesix.com', '_blank');
+    };
+
+    return (
+        <div
+            style={{
+                marginBottom: '20px'
+            }}
+        >
+            <button
+                className={'e6Button'}
+                onClick={handleClick}
+            >
+                Contact us
+            </button>
+        </div>
+    );
+}
